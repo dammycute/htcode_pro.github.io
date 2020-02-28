@@ -1,0 +1,130 @@
+/*Choosing color:
+1. my dominant color is purple #985986
+2. where to use them:
+Logo, header' call to action button, Hightlight important info, Title and Headlines, buutons.
+3. Accent colors: subtitles, footer, etc
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Consolas;
+    background-color: lightgrey;
+}
+header{
+    height: 60px;
+    background-color: limegreen;
+}
+.logo{
+    line-height: 60px;
+    float: left;
+    padding: 0 20px;
+}
+.logo a{
+    text-decoration: none;
+}
+nav a{
+   
+}
+nav ul{
+    
+    float: left;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    
+    
+}
+nav ul li{
+    position: relative;
+    float: left;
+    
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    color: mintcream; ;
+    padding: 7px 14px;
+    text-decoration: none;
+}
+nav ul li ul{
+    position: absolute;
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li a{
+    padding: 8px 14px;
+    width: 200px;
+    color: gray;
+    background-color: white;
+
+}
+
+nav ul li ul .sec ul {
+    position: absolute;
+    display: none;
+    z-index: 1001;
+    left: 200px;
+    top:3px;
+    opacity: 0.8;
+
+
+}
+nav ul li ul .sec:hover > ul{
+    display: block;
+}
+.small_con{
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    background-color: lime;
+    margin-top: 40px;
+    
+
+}
+.foot{
+    font-weight: 600;
+}
+.contact{
+    max-width: 400px;
+    
+}
+.contact li{
+    padding: 13px 14px;
+    list-style: none;
+}
+.about li{
+    list-style: none;
+    padding: 13px 14px;
+}
+.about li a{
+    text-decoration: none;
+}
+.short{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.short p{
+    color:brown;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 15px;
+    
+}
+.short h2{
+    margin-top: 15px;
+    
+}
+.short .few{
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+.few h2{
+    text-align: center;
+}
