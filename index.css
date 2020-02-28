@@ -128,3 +128,7 @@ nav ul li ul .sec:hover > ul{
 .few h2{
     text-align: center;
 }
+@media screen and (max-width: 1000px){
+    body{font-size: 11px;
+    }
+}
